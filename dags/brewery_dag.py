@@ -15,7 +15,7 @@ default_args = {
 
 @dag(
     dag_id="brewery_dag_pipeline",
-    description="Ingestão de dados da API para camada Bronze no S3",
+    description="Pipeline de dados da Brewery API",
     default_args=default_args,
     schedule_interval="@daily",
     start_date=datetime(2025, 1, 1),
