@@ -46,14 +46,14 @@ brewery_case/
 │   ├── silver/
 │   │   └── silver_ingestion.py       # Transformações para Silver
 │   └── gold/
-│       └── gold_ingestion.py         # Agregações e partições para Gold
+│       └── gold_aggregation.py        # Agregações e partições para Gold
 ├── tests/
 │   ├── bronze/
 |   |   └── test_raw_ingestion.py
 │   ├── silver/
-|   |   └── test_silver.py
+|   |   └── test_transform_silver.py
 │   └── gold/
-|       └── test_gold.py
+|       └── test_transform_gold.py
 ├── Dockerfile                        # Imagem customizada com PySpark e Java
 ├── requirements.txt
 └── .env                              # Variáveis sensíveis
@@ -83,8 +83,8 @@ Cada camada possui seus testes organizados:
 ```bash
 # Testes individuais
 pytest tests/bronze/test_raw_ingestion.py
-pytest tests/silver/test_silver.py
-pytest tests/gold/test_gold.py
+pytest tests/silver/test_transform_silver.py
+pytest tests/gold/test_transform_gold.py
 ```
 
 Os testes são executados automaticamente via Airflow entre as etapas do pipeline.
