@@ -171,6 +171,7 @@ FROM gold;
 
 ### AWS S3 - Camadas de Dados
 ![S3 Buckets](images/s3_buckets.png)
+![Silver] (images/silver_bucket.png)
 
 ### AWS Glue - Catálogo de Dados
 ![Glue Catalog](images/glue_catalog.png)
