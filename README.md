@@ -161,6 +161,7 @@ FROM gold;
 ## Melhorias Futuras
 
 - CI/CD com GitHub Actions
+- Automatizar testes com o GitHub Actions e tirar eles do Airflow
 - Observabilidade com Datadog ou Prometheus
 
 ---
