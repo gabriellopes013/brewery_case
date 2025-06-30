@@ -102,7 +102,7 @@ astro dev start
 
 ## 🔐 Arquivo `.env`
 
-Crie um arquivo `.env` na raiz com as credenciais da AWS:
+Crie um arquivo `.env` na raiz com as credenciais da AWS e configurações de email:
 
 ```env
 AIRFLOW__SMTP__SMTP_HOST=smtp.gmail.com
