@@ -162,8 +162,6 @@ FROM gold;
 
 - CI/CD com GitHub Actions
 - Observabilidade com Datadog ou Prometheus
-- Validação de schema com Great Expectations
-- Uso de Delta Lake ou Iceberg para versionamento
 
 ---
 # Screenshots
