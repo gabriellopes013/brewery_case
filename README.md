@@ -165,6 +165,8 @@ FROM gold;
 
 ---
 # Screenshots
+### Arquitetura
+![Arquitetura](images/arquitetura.png)
 
 ### Airflow - DAG Pipeline
 ![Airflow DAG](images/airflow_dag.png)
