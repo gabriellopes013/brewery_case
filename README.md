@@ -128,10 +128,11 @@ obs: caso for gmail faça uma senha para aplicativo e habilite autenticação em
 4. Vá até o **AWS Athena** e execute:
 
 ```sql
-SELECT country, COUNT(*) as total
-FROM gold
-GROUP BY country
-ORDER BY total DESC;
+SELECT
+   brewery_type, 
+   country, 
+   brewery_count 
+FROM gold;
 ```
 
 ---
